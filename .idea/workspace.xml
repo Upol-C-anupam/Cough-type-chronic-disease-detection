@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd105f39-23dc-4d4a-a642-0b03de111350" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/users/templates/doctor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/profile_modal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coughtypechronicdisease/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/coughtypechronicdisease/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/static/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/users/static/js/extra.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/appointment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/doctor.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/doctor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
