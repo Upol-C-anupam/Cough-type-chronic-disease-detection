@@ -1,9 +1,9 @@
-import mimetypes
+import django_heroku
 import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-mimetypes.add_type("text/css", ".css", True)
+django_heroku.settings(locals())
 load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent

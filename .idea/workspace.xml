@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd105f39-23dc-4d4a-a642-0b03de111350" name="Changes" comment="" />
+    <list default="true" id="fd105f39-23dc-4d4a-a642-0b03de111350" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coughtypechronicdisease/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/coughtypechronicdisease/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/static/images/dribbble.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/static/images/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/static/images/linkedin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/static/images/youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/static/vendor/extra.css" beforeDir="false" afterPath="$PROJECT_DIR$/users/static/css/extra.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/doctor.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/doctor.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,10 +50,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CODE\PYTHON\zmax\coughtypechronicdisease\users\static\css" />
       <recent name="E:\CODE\PYTHON\zmax\coughtypechronicdisease\users\static\vendor" />
       <recent name="E:\CODE\PYTHON\zmax\coughtypechronicdisease\users\templates" />
       <recent name="E:\CODE\PYTHON\zmax\coughtypechronicdisease\users\static\images" />
-      <recent name="E:\CODE\PYTHON\zmax\coughtypechronicdisease\users\static\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
