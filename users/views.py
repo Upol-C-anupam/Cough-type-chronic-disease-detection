@@ -100,10 +100,8 @@ class RegisterView(View):
 
         if form.is_valid():
             form.save()
-
             username = form.cleaned_data.get('username')
             messages.success(request, f'Account created for {username}')
-
             return redirect(to='login')
 
         return render(request, self.template_name, {'form': form})
@@ -173,19 +171,34 @@ def disease_diagnosis_view(request):
     if request.method == 'POST':
         X_new = [[int(request.POST['Age']), int(request.POST['Gender']), int(request.POST['Cough']),
                   int(request.POST['Srthroat']), int(request.POST['Wheezing']), int(request.POST['Chills']),
-                  int(request.POST['Abpain']),
-                  int(request.POST['Vomiting']), int(request.POST['Fever']), int(request.POST['Headache']),
-                  int(request.POST['Nausea']), int(request.POST['Tiredness']), int(request.POST['Malaise']),
-                  int(request.POST['Bodyache']),
-                  int(request.POST['Anorexia']), int(request.POST['Breathless']), int(request.POST['Convulsion']),
-                  int(request.POST['Weightloss']), int(request.POST['Face']), int(request.POST['Fauces']),
-                  int(request.POST['Chestpain']),
+                  int(request.POST['Abpain']), int(request.POST['Vomiting']), int(request.POST['Fever']),
+                  int(request.POST['Headache']), int(request.POST['Nausea']), int(request.POST['Tiredness']),
+                  int(request.POST['Malaise']), int(request.POST['Bodyache']), int(request.POST['Anorexia']),
+                  int(request.POST['Breathless']), int(request.POST['Convulsion']), int(request.POST['Weightloss']),
+                  int(request.POST['Face']), int(request.POST['Fauces']), int(request.POST['Chestpain']),
                   int(request.POST['Shivering']), int(request.POST['Sweating']), int(request.POST['Shoulderpain']),
                   int(request.POST['HL']), int(request.POST['Asthmatic']), int(request.POST['Dyspnea'])]]
 
         ans = predict_disease(X_new)
         context = {'disease': ans}
         return render(request, 'appointment.html', context)
+
+
+def appointment_view(request):
+    if request.method == 'POST':
+        first_name = request.POST['first_name']
+        last_name = request.POST['last_name']
+        email = request.POST['email']
+        phone = request.POST['phone']
+        date = request.POST['date']
+        location = request.POST['location']
+
+        context = {
+            'first_name': first_name, 'last_name': last_name, 'email': email,
+            'phone': phone, 'date': date, 'location': location
+        }
+
+        return render(request, 'doctor.html', context)
 
 
 if __name__ == '__main__':

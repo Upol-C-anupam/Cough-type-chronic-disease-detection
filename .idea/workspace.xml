@@ -5,12 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd105f39-23dc-4d4a-a642-0b03de111350" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/users/templates/doctor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coughtypechronicdisease/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/coughtypechronicdisease/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/static/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/users/static/js/extra.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/appointment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,12 +41,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "E:/CODE/PYTHON/zmax/self-performance-evaluation",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CODE\PYTHON\zmax\coughtypechronicdisease\users\templates" />
+      <recent name="E:\CODE\PYTHON\zmax\coughtypechronicdisease\users\static\images" />
+      <recent name="E:\CODE\PYTHON\zmax\coughtypechronicdisease\users\static\css" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,5 +65,16 @@
       <updated>1660453100815</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
