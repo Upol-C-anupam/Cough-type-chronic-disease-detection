@@ -15,3 +15,4 @@ mysql-connector-python-rf
 mysqlclient
 psycopg2
 pytz
+django_heroku
