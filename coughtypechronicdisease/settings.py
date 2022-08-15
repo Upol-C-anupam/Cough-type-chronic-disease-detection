@@ -1,10 +1,6 @@
-import django_heroku
 import os
 from pathlib import Path
 from dotenv import load_dotenv
-
-# django_heroku.settings(locals())
-load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-5zq=wq0(m(s^j45(zgp$&q96bh3s3-3o=5+kx+$ho=zf$92fp7'
@@ -80,10 +76,7 @@ USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 
-PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 STATIC_URL = '/static/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 LOGIN_REDIRECT_URL = '/'
 LOGIN_URL = 'login'
