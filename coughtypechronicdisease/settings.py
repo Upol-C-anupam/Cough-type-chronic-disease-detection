@@ -58,12 +58,12 @@ DATABASES = {
     'default': {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'HOST': 'ec2-34-193-44-192.compute-1.amazonaws.com',
-        'NAME': 'd1940g3v2n81h8',
-        'USER': 'tfkfjrzjhctneh',
+        'HOST': 'ec2-44-206-137-96.compute-1.amazonaws.com',
+        'NAME': 'd50dg9lv2bai98',
+        'USER': 'pxjnhitayjneek',
         'PORT': '5432',
-        'PASSWORD': '2db3bbda46ab3d8be978d859a9b27b902d566bcca9cbbd75033bb7096e78225e',
+        'PASSWORD': '5ea55cde6b0895118bd56ee3afb12ac597ee42b24b1e4e8096bd5a8dec5a8d15',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
     }
 }
 
