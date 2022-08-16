@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fd105f39-23dc-4d4a-a642-0b03de111350" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/coughtypechronicdisease/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/coughtypechronicdisease/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/appointment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
