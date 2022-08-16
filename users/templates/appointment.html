@@ -6,13 +6,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="{% static 'vendor/mdi-font/css/material-design-iconic-font.min.css' %}">
-    <link rel="stylesheet" href="{% static 'vendor/font-awesome-4.7/css/font-awesome.min.css' %}">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-    <link rel="stylesheet" href="{% static 'vendor/select2/select2.min.css' %}">
-    <link rel="stylesheet" href="{% static 'vendor/datepicker/daterangepicker.css' %}">
-    <link rel="stylesheet" href="{% static 'css/extra.css' %}">
+    <link rel="stylesheet" href="{% static 'css/select.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/extra.css' %}">
     <link rel="icon" href="{% static 'images/icon.png' %}" type="image/png"/>
     <title>Appointment</title>
 </head>
@@ -62,7 +58,15 @@
                             <div class="name">Phone</div>
                             <div class="value">
                                 <div class="input-group">
-                                    <input class="input--style-5" type="text" name="phone">
+                                    <input class="input--style-5" type="tel" name="phone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Location</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="location">
                                 </div>
                             </div>
                         </div>
@@ -71,27 +75,6 @@
                             <div class="value">
                                 <div class="input-group">
                                     <input class="input--style-5" type="date" name="date">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="name">Location</div>
-                            <div class="value">
-                                <div class="input-group">
-                                    <div class="rs-select2 js-select-simple select--no-search">
-                                        <select name="location">
-                                            <option disabled="disabled" selected="selected">Choose option</option>
-                                            <option>Dhaka</option>
-                                            <option>Chittagong</option>
-                                            <option>Sylhet</option>
-                                            <option>Mymensingh</option>
-                                            <option>Khulna</option>
-                                            <option>Rajshahi</option>
-                                            <option>Barisal</option>
-                                            <option>Rangpur</option>
-                                        </select>
-                                        <div class="select-dropdown"></div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -117,10 +100,7 @@
         </div>
     </div>
 
-    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
-    <script src="{% static 'vendor/select2/select2.min.js' %}"></script>
-    <script src="{% static 'vendor/datepicker/moment.min.js' %}"></script>
-    <script src="{% static 'vendor/datepicker/daterangepicker.js' %}"></script>
+    <script src="{% static 'js/select.min.js' %}"></script>
     <script src="{% static 'js/global.js' %}"></script>
 </body>
 

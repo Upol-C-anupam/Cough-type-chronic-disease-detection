@@ -16,6 +16,11 @@
     margin-left: 15%;
 }
 
+.address {
+  display: block;
+  font-style: italic;
+}
+
 .custom-select {
   position: relative;
   font-family: Arial;
