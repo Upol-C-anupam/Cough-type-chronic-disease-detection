@@ -21,6 +21,24 @@
   font-style: italic;
 }
 
+.doctor_a {
+    float: left;
+    width: 30%;
+    margin-left: 2%;
+}
+
+.doctor_b {
+    float: left;
+    width: 30%;
+    margin-left: 3%;
+}
+
+.patient_card {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 3%;
+}
+
 .custom-select {
   position: relative;
   font-family: Arial;
